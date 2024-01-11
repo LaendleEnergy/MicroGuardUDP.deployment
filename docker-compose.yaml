@@ -8,6 +8,6 @@ services:
       - SERVER_ADDRESS=0.0.0.0
       - SERVER_PORT=4433
       - MQTT_BROKER_PORT=1884
-      - MQTT_BROKER_ADDRESS=45.145.224.10
+      - MQTT_BROKER_ADDRESS=85.215.60.151
     ports:
       - 4433:4433
