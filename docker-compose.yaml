@@ -12,3 +12,11 @@ services:
     ports:
       - "4433:4433/tcp"
       - "4433:4433/udp"
+    networks:
+      - mqtt
+
+
+networks:
+  mqtt:
+    name: mqtt
+    external: true
